@@ -17,7 +17,7 @@ function maintenance_mode()
   nocache_headers();
   if ( !is_user_logged_in() ) {
   wp_die( 
-  	'<h1>Wartung</h1>', 
+  	'<h1>Under Maintenance / Wartung</h1>', 
 	  ['response' => '503']);
   }
 }
